@@ -1,0 +1,155 @@
+/* common start */
+body{
+    font-family: "PT Sans", sans-serif;
+   font-size:16px;
+   font-weight:400px ;
+   color: #898989;    /*paragraph color most used*/
+
+}
+.c_padding{
+    padding-top:100px;
+    padding-bottom:120px;
+}
+/* common end */
+/* header :start */
+header{
+    background-color:#fcdb00;
+    padding: 20px 0;
+}
+.c_nav{}
+.logo{}
+.menu{}
+.menu ul li a{
+     font-size:22px;
+   font-weight:700;
+   color: #010101 ;
+   padding:0 30px !important;
+
+}
+.menu ul li:last-child a{
+    padding-right:0px !important;
+}
+.menu ul li a:hover{
+    color:white !important;
+}
+/* header :end */
+/* slider :start */
+.slider{
+     background-color:#fcdb00;
+     padding-bottom:100px;
+}
+.c_ind {
+    bottom: -80px;
+}
+.c_ind [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.s_text{}
+.s_text h1{
+       font-size:32px;
+   font-weight:700;
+   color: #010101; 
+}
+.s_text h2{
+    font-size:32px;
+   font-weight:400;
+   color: #313841; 
+   padding:20px 0;
+}
+
+.s_text p{
+    color:#555555;
+    margin-bottom: 35px;
+}
+.s_icon{}
+.s_icon ul li{
+    margin-right: 30px !important;
+}
+.s_icon ul li i{
+    font-size:42px;
+    color:#010101;
+    transition-duration: .3s;
+}
+.s_icon ul li i:hover{
+    transform: scale(.8);
+    color:white;
+}
+.s_img{}
+.s_img img{}
+/* slider end */
+/* feature start */
+.feature{
+    padding-top:100px;
+    padding-bottom:120px;
+}
+.c_title{}
+.c_h1{
+    margin-bottom:15px;
+     font-size:32px;
+   font-weight:700;
+   color: #010101; 
+}
+.c_p{
+    color:#313841;
+    font-size:20px;
+    line-height: 28px;
+}
+.f_item{
+    margin-top:70px;
+}
+.f_icon{}
+.f_icon i{
+    margin-top:2px;
+    font-size:50px;
+    color:#010101;
+    transition-duration: .3s;
+}
+.f_icon i:hover{
+    transform: scale(.8);
+    color:white;
+}
+.f_text{}
+.f_text h2{
+    margin-bottom:10px;
+    font-size:22px;
+    font-weight:400;
+    color:#010101
+}
+.f_text p{
+    letter-spacing: 1px;
+}
+/* feature end */
+/* contect start */
+.contect{
+    background-color: #010101;
+}
+.yellow{
+    color:#fcdb00;
+}
+.ash{
+    color:#898989;
+}
+.c_form{}
+.c_input{
+    height:55px;
+    font-family: "PT Sans", sans-serif;
+    color:#898989;
+    padding: 15px 20px;
+}
+
+.c_btn {
+  padding: 15px 20px;
+  background-color: #ffd700; 
+  color: black;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  height: 100%;              
+  font-size: 16px;
+  border-radius: 10%;
+}
+
+/* contect end */
