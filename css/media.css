@@ -91,6 +91,30 @@
     .f_text p {
         letter-spacing: 0;
     }
+
+    /* contact start */
+    .c_icon li {
+        margin-right: 25px !important;
+
+    }
+
+    /* footer :start */
+    footer {
+        padding-bottom: 70px;
+    }
+
+    .f_1 {
+        text-align: center;
+
+    }
+
+    .f_2,
+    .f_3,
+    .f_4,
+    .f_5 {
+        margin-bottom: 40px;
+        text-align: center;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -182,6 +206,34 @@
     .f_text p {
         letter-spacing: 0;
     }
+
+    /* contact start */
+    .c_icon li {
+        margin-right: 25px !important;
+    }
+
+    .c_icon li i {
+        font-size: 40px;
+
+    }
+
+    /* footer :start */
+    footer {
+        padding-bottom: 70px;
+    }
+
+    .f_1 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .f_2,
+    .f_3,
+    .f_4,
+    .f_5 {
+        text-align: center;
+    }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -199,6 +251,27 @@
     }
 
     /* feature start */
+    /* contaact start */
+    .c_input {
+        height: 45px;
+
+    }
+
+    footer {
+        padding-bottom: 70px;
+    }
+
+    .f_1 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .f_2,
+    .f_3,
+    .f_4,
+    .f_5 {
+        text-align: center;
+    }
 
 }
 
